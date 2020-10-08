@@ -1,0 +1,28 @@
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #fbfbfb;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-box {
+  border: solid #000 1px;
+  width: 35%;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+}
