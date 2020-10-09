@@ -1,0 +1,16 @@
+.tugas10_container {
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #aaa;
+}
+
+td {
+    background-color: #ff7f50;
+}
