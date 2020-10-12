@@ -5,7 +5,7 @@ export default class Tugas11 extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            count: 10,
+            count: 100,
             time: new Date().toLocaleTimeString(),
             show: true
         }
