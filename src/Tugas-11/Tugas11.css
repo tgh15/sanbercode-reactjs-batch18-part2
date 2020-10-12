@@ -1,0 +1,5 @@
+.tugas11-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
