@@ -52,7 +52,7 @@ export default class Tugas12 extends Component {
         e.preventDefault()
         if (this.state.listBuah.some(buah => buah.id === this.state.id)) {
             let edited = this.state.listBuah.map(buah => {
-                if (buah.id == this.state.id) {
+                if (buah.id === this.state.id) {
                     buah.nama = this.state.nama
                     buah.harga = this.state.harga
                     buah.berat = this.state.berat
